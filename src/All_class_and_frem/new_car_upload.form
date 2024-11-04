@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="All_class_and_frem.new_car_upload">
+  <grid id="27dc6" binding="main_panel" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="909" height="575"/>
+    </constraints>
+    <properties>
+      <background color="-42235"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2d2fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="48" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Update vehicle informatin"/>
+        </properties>
+      </component>
+      <component id="d42c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle category :"/>
+        </properties>
+      </component>
+      <component id="853b0" class="javax.swing.JComboBox" binding="cb_category">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+          <model>
+            <item value="Private Car"/>
+            <item value="Microbus"/>
+            <item value="Sports Car"/>
+            <item value="Luxurious car"/>
+            <item value="Electric Car"/>
+            <item value="Taxi"/>
+            <item value="Truck"/>
+            <item value="Pickup"/>
+          </model>
+        </properties>
+      </component>
+      <component id="90e25" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Fuel type :"/>
+        </properties>
+      </component>
+      <component id="94845" class="javax.swing.JComboBox" binding="cb_fuel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+          <model>
+            <item value="petroleum"/>
+            <item value="Gasoline"/>
+            <item value="Diesel"/>
+            <item value="Natural Gas"/>
+            <item value="Electricity"/>
+            <item value="Hybrid"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e0e47" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle brand :"/>
+        </properties>
+      </component>
+      <component id="fe038" class="javax.swing.JComboBox" binding="cb_brand">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+          <model>
+            <item value="Toyota"/>
+            <item value="Honda"/>
+            <item value="Suzuki"/>
+            <item value="Tata"/>
+            <item value="BMW"/>
+            <item value="Audi"/>
+            <item value="Ferrari"/>
+            <item value="Lamborghini"/>
+            <item value="Tesla"/>
+            <item value=""/>
+            <item value=""/>
+          </model>
+        </properties>
+      </component>
+      <component id="da1d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle Image :"/>
+        </properties>
+      </component>
+      <component id="3245c" class="javax.swing.JButton" binding="btn_image">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="select image"/>
+        </properties>
+      </component>
+      <component id="262d2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Cost par day(tk) :"/>
+        </properties>
+      </component>
+      <component id="7f7d4" class="javax.swing.JTextField" binding="tf_cost">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+        </properties>
+      </component>
+      <component id="bfe2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle mileage :"/>
+        </properties>
+      </component>
+      <component id="11a79" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle top speed(km/h) :"/>
+        </properties>
+      </component>
+      <component id="b2752" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Vehicle power (HP) :"/>
+        </properties>
+      </component>
+      <component id="1ba00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-1641217"/>
+          <text value="Total sit in vehicle :"/>
+        </properties>
+      </component>
+      <component id="a3ec1" class="javax.swing.JTextField" binding="tf_mileage">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+        </properties>
+      </component>
+      <component id="3c7ea" class="javax.swing.JTextField" binding="tf_speed">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+        </properties>
+      </component>
+      <component id="e2b2a" class="javax.swing.JTextField" binding="tf_power">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+        </properties>
+      </component>
+      <component id="72f2d" class="javax.swing.JTextField" binding="tf_sit">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <font name="Arial Black" size="20" style="0"/>
+          <foreground color="-16711680"/>
+        </properties>
+      </component>
+      <vspacer id="8efaf">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6a6a2" class="javax.swing.JButton" binding="backToAdminPageButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15811655"/>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Back to admin page"/>
+        </properties>
+      </component>
+      <component id="bf539" class="javax.swing.JButton" binding="uploadThisInformationButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119809"/>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Upload this information"/>
+        </properties>
+      </component>
+      <component id="5772c" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-126957"/>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

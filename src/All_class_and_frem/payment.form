@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="All_class_and_frem.payment">
+  <grid id="27dc6" binding="payment_panel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="766" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1641217"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4f726" class="javax.swing.JLabel" binding="l_total_tk">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="36" style="1"/>
+          <foreground color="-126957"/>
+          <text value="Payable amount"/>
+        </properties>
+      </component>
+      <component id="a6855" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-42235"/>
+          <text value="Bank payment"/>
+        </properties>
+      </component>
+      <component id="887b" class="javax.swing.JButton" binding="BRACBankButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="BRAC Bank"/>
+        </properties>
+      </component>
+      <component id="93427" class="javax.swing.JButton" binding="islamiBankButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Islami Bank"/>
+        </properties>
+      </component>
+      <component id="8cc14" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="28" style="1"/>
+          <foreground color="-42235"/>
+          <text value="Mobile bank payment"/>
+        </properties>
+      </component>
+      <component id="b3928" class="javax.swing.JButton" binding="btn_bkash">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <icon value="All_image_and_icon/bkash_icon_200x100.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dc7e3" class="javax.swing.JButton" binding="btn_nogod">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <icon value="All_image_and_icon/nogod_icnon_200x100.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="38a28" class="javax.swing.JButton" binding="btn_roket">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1641217"/>
+          <icon value="All_image_and_icon/roket_icno_200x100.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fd531" class="javax.swing.JButton" binding="sonaliBankButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <foreground color="-1641217"/>
+          <text value="Sonali Bank"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

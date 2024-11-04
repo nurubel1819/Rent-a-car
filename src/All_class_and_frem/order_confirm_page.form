@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="All_class_and_frem.order_confirm_page">
+  <grid id="27dc6" binding="order_confirm_panel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="862" height="567"/>
+    </constraints>
+    <properties>
+      <background color="-16331575"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="15215" binding="car_info_panel" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8c231" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="vehicle information"/>
+            </properties>
+          </component>
+          <component id="cb2f7" class="javax.swing.JLabel" binding="L_category">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="bc530" class="javax.swing.JLabel" binding="L_fuel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="886f5" class="javax.swing.JLabel" binding="L_brand">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="48a98" class="javax.swing.JLabel" binding="L_mileage">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="1380b" class="javax.swing.JLabel" binding="L_top_speed">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="8cc95" class="javax.swing.JLabel" binding="L_power">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="2bee2" class="javax.swing.JLabel" binding="L_sit">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="1fcbf" class="javax.swing.JLabel" binding="L_cost">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6c940" class="javax.swing.JLabel" binding="car_image">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="91461" binding="customre_info_panel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-42235"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6a111" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Customer information"/>
+            </properties>
+          </component>
+          <component id="cb39b" class="javax.swing.JLabel" binding="L_name">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="d6c05" class="javax.swing.JLabel" binding="L_email">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="3c96a" class="javax.swing.JLabel" binding="L_phone">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="59723" class="javax.swing.JLabel" binding="L_address">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="address"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="23f37" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12515797"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="16dcf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Time duration (day) : "/>
+            </properties>
+          </component>
+          <component id="edef" class="javax.swing.JTextField" binding="tf_duration">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1641217"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-16711680"/>
+            </properties>
+          </component>
+          <component id="871d6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Total cost :"/>
+            </properties>
+          </component>
+          <component id="a299e" class="javax.swing.JLabel" binding="L_total_cost">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4f856" class="javax.swing.JButton" binding="btn_confirm">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16301762"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Confirm order"/>
+            </properties>
+          </component>
+          <component id="4d530" class="javax.swing.JButton" binding="btn_cancel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-126957"/>
+              <font name="Arial Black" size="26" style="1"/>
+              <foreground color="-1641217"/>
+              <text value="Cancel order"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
